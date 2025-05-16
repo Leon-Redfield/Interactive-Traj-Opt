@@ -157,20 +157,20 @@
 </section>
 <!-- End paper abstract -->
 
-<section class="section">  <!-- 改为与其他部分一致的section类 -->
-  <div class="container is-max-desktop">  <!-- 添加容器约束 -->
+<!-- Homotopy Invariant 视频部分 -->
+<section class="section">
+  <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
       <div class="column is-full-width">
         <h2 class="title is-3">Proposed local homotopy invariant</h2>
         <div class="publication-video">
-          <video id="replay-video"
-                 controls
+          <video id="homotopy-video"
+                 autoplay
                  muted
-                 preload
+                 loop
                  playsinline
-                 width="100%">  <!-- 改为100%宽度 -->
-            <source src="./static/videos/homotopy invariant.mp4"
-                    type="video/mp4">
+                 width="100%">
+            <source src="./static/videos/homotopy invariant.mp4" type="video/mp4">
           </video>
         </div>
       </div>
@@ -178,15 +178,20 @@
   </div>
 </section>
 
-<section class="section">  <!-- 移除hero teaser类 -->
+<!-- Final Video 视频部分 -->
+<section class="section">
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
       <div class="column is-full-width">
-        <h2 class="title is-3">Final Results</h2>  <!-- 可添加标题保持一致性 -->
+        <h2 class="title is-3">Final Results</h2>
         <div class="publication-video">
-          <video poster="" controls muted loop width="100%">  <!-- 改为controls而非autoplay -->
-            <source src="static/videos/final_video_submitted_v2.mp4"
-            type="video/mp4">
+          <video id="final-video"
+                 autoplay
+                 muted
+                 loop
+                 playsinline
+                 width="100%">
+            <source src="static/videos/final_video_submitted_v2.mp4" type="video/mp4">
           </video>
         </div>
       </div>
